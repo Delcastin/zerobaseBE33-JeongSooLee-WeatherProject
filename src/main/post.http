@@ -1,0 +1,15 @@
+### GET request to example server
+POST http://localhost:8080/create/diary?date=2024-04-05
+Content-Type: application/json
+
+
+###
+POST http://localhost:8080/create/diary?date=2024-04-05
+Content-Type: application/json
+Accept: */*
+
+{
+  "title": "My Diary Entry",
+  "content": "Today was a great day!",
+  "date": "2024-04-05"
+}
